@@ -55,6 +55,24 @@
     .contact-btn:hover {
       background: #e53e3e;
     }
+
+    .down-emoji {
+      font-size: 2.5rem;
+      animation: bounce 1.5s infinite;
+      margin-bottom: 1.5rem;
+    }
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(10px);
+      }
+      60% {
+        transform: translateY(5px);
+      }
+    }
+    
     .contact-info {
       font-size: 1rem;
       color: #ddd;
@@ -82,14 +100,15 @@
   <p>This powerful domain is for sale.<br>
      Ideal for AI tools focused on spam filtering, decluttering, or data disposal automation.</p>
 
-  <a class="contact-btn" href="mailto:shubhurana153@outlook.com">Contact to Buy</a>
-
+  <a class="contact-btn">Contact to Buy</a>
+  <div class="down-emoji">👇</div>
+    
   <div class="contact-info">
     <span><strong>WhatsApp:</strong> <a href="https://wa.me/919557369624" target="_blank">+91 95573 69624</a></span>
     <span><strong>Telegram:</strong> <a href="https://t.me/tackooo" target="_blank">@tackooo</a></span>
     <span><strong>Email:</strong> <a href="mailto:shubhurana153@outlook.com">shubhurana153@outlook.com</a></span>
   </div>
-
+    <br><br>
   <footer>
     &copy; 2025 DiscardAi.com — Domain For Sale
   </footer>
